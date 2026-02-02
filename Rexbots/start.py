@@ -36,7 +36,7 @@ REACTIONS = [
 ]
 
 
-dev_text = "👨‍💻 Mind Behind This Bot:\n• @DmOwner\n• @Divyanshshukla7"
+dev_text = "👨‍💻 Mind Behind This Bot:\n• @Divyanshshukla7\n• @Divyanshshukla7"
 expected_dev_hash = "b655e5aa04a17328ab1b367e8769d90dc243dd7f8eef213c3cf42c6188c162ef"
 channels_text = "📢 Official Channels:\n• @Divyanshshukla7\n• @Divyanshshukla7\n\nStay updated for new features!"
 expected_channels_hash = "b655e5aa04a17328ab1b367e8769d90dc243dd7f8eef213c3cf42c6188c162ef"
