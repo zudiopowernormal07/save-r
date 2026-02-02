@@ -46,7 +46,7 @@ dev_text = "👨‍💻 Mind Behind This Bot:
 • @Divyanshshukla7"
 channels_text = "📢 Official Channels:
 • @Divyanshshukla7
-• @Divyanshshukla7"
+• @Divyanshshukla7
 
 Stay updated for new features!"
 
