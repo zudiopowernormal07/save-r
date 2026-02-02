@@ -41,14 +41,14 @@ REACTIONS = [
 # ========== HASH CHECK REMOVED ==========
 # Ab aap kuch bhi likh sakte ho, error nahi aayega
 
-dev_text = "👨‍💻 Mind Behind This Bot:
+dev_text = """👨‍💻 Mind Behind This Bot:
 • @Divyanshshukla7
-• @Divyanshshukla7"
-channels_text = "📢 Official Channels:
+• @Divyanshshukla7"""
+channels_text = """📢 Official Channels:
 • @Divyanshshukla7
 • @Divyanshshukla7
 
-Stay updated for new features!"
+Stay updated for new features!"""
 
 # Purana hash check hata diya gaya hai
 
