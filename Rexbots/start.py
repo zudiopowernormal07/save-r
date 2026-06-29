@@ -21,11 +21,11 @@ from logger import LOGGER
 
 logger = LOGGER(__name__)
 
-SUBSCRIPTION = os.environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg')
+SUBSCRIPTION = os.environ.get('SUBSCRIPTION', '')
 FREE_LIMIT_SIZE = 2 * 1024 * 1024 * 1024
 FREE_LIMIT_DAILY = 10
-UPI_ID = os.environ.get("UPI_ID", "your_upi@oksbi")
-QR_CODE = os.environ.get("QR_CODE", "https://graph.org/file/242b7f1b52743938d81f1.jpg")
+UPI_ID = os.environ.get("UPI_ID", "@Owner_dev_bot")
+QR_CODE = os.environ.get("QR_CODE", "")
 
 REACTIONS = [
     "👍", "❤️", "🔥", "🥰", "👏", "😁", "🤔", "🤯", "😱", "🤬",
@@ -40,12 +40,12 @@ REACTIONS = [
 
 # ========== HASH CHECK REMOVED ==========
 dev_text = """👨‍💻 Mind Behind This Bot:
-• @Divyanshshukla7
-• @Divyanshshukla7"""
+• @Owner_dev_bot
+• @Owner_dev_bot"""
 
 channels_text = """📢 Official Channels:
-• @Divyanshshukla7
-• @Divyanshshukla7
+• https://t.me/skill_dev_study
+• https://t.me/skill_dev_study
 
 Stay updated for new features!"""
 
@@ -88,8 +88,8 @@ class script(object):
 """
     ABOUT_TXT = """<b>ℹ️ About This Bot</b>
 <blockquote><b>╭────[ 🧩 Technical Stack ]────⍟</b>
-<b>├⍟ 🤖 Bot Name : <a href=http://t.me/@Divyanshshukla7>Save Content</a></b>
-<b>├⍟ 👨‍💻 Developer : <a href=https://t.me/Divyanshshukla7>Ⓜ️ark X Rexbots</a></b>
+<b>├⍟ 🤖 Bot Name : <a href=╬═ 𝙆𝙍𝙄𝙎𝙃𝙉𝘼 ═╬>Save Content</a></b>
+<b>├⍟ 👨‍💻 Developer : <a href=https://t.me/Owner_dev_bot>Ⓜ️ark X Rexbots</a></b>
 <b>├⍟ 📚 Library : <a href='https://docs.pyrogram.org/'>Pyrogram Async</a></b>
 <b>├⍟ 🐍 Language : <a href='https://www.python.org/'>Python 3.11+</a></b>
 <b>├⍟ 🗄 Database : <a href='https://www.mongodb.com/'>MongoDB Atlas Cluster</a></b>
@@ -123,7 +123,7 @@ class script(object):
 <b>⏳ ETA:</b> <code>{eta}</code>
 </blockquote>
 """
-    CAPTION = """<b><a href="https://t.me/Divyanshshukla7">⚜️ Powered By : 💫『 𝒟𝒾𝓋𝓎𝒶𝓃𝓈𝒽 𝓈𝒽𝓊𝓀𝓁𝒶 』💫😎</a></b>"""
+    CAPTION = """<b><a href=""></a></b>"""
     LIMIT_REACHED = """<b>🚫 Daily Limit Exceeded</b>
 <b>Your 10 free saves for today have been used.</b>
 <i>Quota resets automatically after 24 hours from first download.</i>
@@ -322,7 +322,7 @@ async def send_help(client: Client, message: Message):
 @Client.on_message(filters.command(["plan", "myplan", "premium"]))
 async def send_plan(client: Client, message: Message):
     buttons = [
-        [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/Divyanshshukla7")],
+        [InlineKeyboardButton("📸 Send Payment Proof", url="https://t.me/Owner_dev_bot")],
         [InlineKeyboardButton("❌ Close Menu", callback_data="close_btn")]
     ]
     await client.send_photo(
